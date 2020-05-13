@@ -8,7 +8,7 @@ return(
 <Fragment>
 <div style={{position:"fixed",width:"100%",zIndex:"10"}}>
 <nav className="navbar navbar-expand-lg navbar-light bg-light">
-<Link to='/' style={{marginRight:"2%"}}>
+<Link to='/' >
   <img src={require('../img/download.svg')} style={{marginTop:"2%"}} alt="coursera"/>
 </Link>
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -17,7 +17,7 @@ return(
   <div className="collapse navbar-collapse" id="navbarNav">
     <ul className="navbar-nav">
       <li className="nav-item active" style={{marginTop:"2%"}}>
-      <button type="button" class="btn btn-primary" style={{marginRight:"30px"}} >
+      <button type="button" class="btn btn-primary" style={{marginLeft:"2%",marginRight:"30px"}} >
       <div class="dropdown">
   <span>Explore</span>
   <div class="dropdown-content" style={{color:"black"}}>
