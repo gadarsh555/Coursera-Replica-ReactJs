@@ -39,7 +39,7 @@ return(
       <div style={{marginRight:"340px"}} >
       {/* <input type="text"  style={{width:"200px"}} name="search" placeholder="Search.."/>
       <button type="submit"  style={{marginRight:"260px",backgroundColor:"blue"}}><i class="fa fa-search"></i></button> */}
-               <div class="input-group" style={{width:"400px"}}>
+               <div class="input-group" style={{width:"300px"}}>
     <input type="text" class="form-control" style={{border:"1px solid blue"}} placeholder="Search this blog"/>
     <div class="input-group-append">
       <button class="btn btn-secondary" style={{backgroundColor:"blue"}} type="button">
