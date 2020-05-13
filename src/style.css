@@ -17,9 +17,9 @@ input[type=text] {
   .comp1{
     padding-top: 60px;
     background-image: url('./img/robot-girlmobile.jpg');
-    width: 80%;
+    width: 100%;
+    overflow-x:hidden;
     height: 300px;
-    background-size:cover;
     background-repeat: no-repeat;
   }
 
