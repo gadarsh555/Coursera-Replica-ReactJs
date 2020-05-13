@@ -6,7 +6,7 @@ class Navbar extends Component {
 render(){
 return(
 <Fragment>
-<div style={{position:"fixed",zIndex:"10"}}>
+<div style={{position:"fixed",width:"70%",zIndex:"10"}}>
 <nav className="navbar navbar-expand-lg navbar-light bg-lightz">
 <Link to='/' >
   <img src={require('../img/download.svg')} style={{marginTop:"2%"}} alt="coursera"/>
